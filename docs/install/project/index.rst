@@ -10,9 +10,7 @@ Ubuntu 18.04
 
 This part of the documentation describes the complete setup process for GeoNode on an Ubuntu 18.04 64-bit clean environment (Desktop or Server). All examples use shell commands that you must enter on a local terminal or a remote shell.
 - If you have a graphical desktop environment you can open the terminal application after login;
-- if you are working on a remote server the provider or sysadmin should has given you access through an ssh client.
-
-.. _install_dep:
+- if you are working on a remote server the provider or sysadmin should have given you access through an ssh client.
 
 Install the dependencies
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -26,9 +24,8 @@ Check that your system is already up-to-date with the repository running the fol
 
 .. code-block:: shell
 
-   sudo apt update
-   sudo apt upgrade
-
+  sudo apt update
+  sudo apt upgrade
 
 Create a Dedicated User
 .......................

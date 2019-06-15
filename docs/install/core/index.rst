@@ -26,8 +26,8 @@ Check that your system is already up-to-date with the repository running the fol
 
 .. code-block:: shell
 
-   sudo apt update
-   sudo apt upgrade
+  sudo apt update
+  sudo apt upgrade
 
 
 Packages Installation
@@ -1159,7 +1159,7 @@ Run the containers in daemon mode
   docker-compose -f docker-compose.yml -f docker-compose.override.example-org.yml up --build -d
 
 Access the django4geonode Docker container to update the code-base and/or change internal settings
-..............................................................................................
+..................................................................................................
 
 Access the container ``bash``
 
